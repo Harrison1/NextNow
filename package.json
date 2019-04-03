@@ -1,0 +1,30 @@
+{
+  "name": "trilogy-nextjs",
+  "version": "1.0.0",
+  "description": "nextjs app",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node server.js",
+    "build": "next build",
+    "start": "NODE_ENV=production node server.js"
+  },
+  "author": "Harrison McGuire",
+  "license": "MIT",
+  "dependencies": {
+    "@zeit/next-typescript": "^1.1.1",
+    "express": "^4.16.4",
+    "isomorphic-unfetch": "^3.0.0",
+    "next": "^8.0.4",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-redux": "^6.0.1",
+    "redux": "^4.0.1",
+    "redux-thunk": "^2.3.0"
+  },
+  "devDependencies": {
+    "@types/next": "^8.0.3",
+    "@types/react": "^16.8.10",
+    "@types/react-dom": "^16.8.3",
+    "typescript": "^3.4.1"
+  }
+}
